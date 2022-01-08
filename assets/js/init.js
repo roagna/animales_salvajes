@@ -11,6 +11,10 @@
 
     const animal = animales.find((an) => an.name == nombre_animal);
 
+    const audioPlayer = document.querySelector("#player");
+
+    console.log(audioPlayer);
+
     $("#preview").css(
       "background-image",
       `url("assets/imgs/${animal.imagen}")`
